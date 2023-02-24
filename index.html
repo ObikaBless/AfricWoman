@@ -1,20 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AfricWoman</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
     <!-- here is the navigation, header and logo of our poroject  -->
-    
-    <h1>404 Page Still Under construction</h1>
+
+    <header>
+        <nav class="navbar">
+            <!-- your logo and heading goes here  -->
+            <img class="nav-branding" src="image/logo.png" alt="logo" onclick="location = this.value"
+            value="index.html">
+            <!-- your navigation goes here  -->
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Models</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Culture</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="history.html">History</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about__section">AboutUs</a>
+                </li>
+            </ul>
+            
+            <div class="hamburger">
+               <span class="bar"></span> 
+               <span class="bar"></span> 
+               <span class="bar"></span> 
+            </div>
+        </nav>
+    </header>
+
+    <!-- your introduction text goes here  -->
+
+    <h1 class="intro-text">
+        Exploring Africa's <br />
+        beauty in people
+    </h1>
+
+    <!-- your  images goes here  -->
+
+    <div class="wrapper">
+        <div class="inner" style="transform: rotateY(40deg)">
+            <figure>
+                <img src="image/img1.png" alt="balablu" style="width: 9.2em" />
+                <figcaption>Africwoman</figcaption>
+            </figure>
+            <figure>
+                <img src="image/img2.png" alt="balablu" style="width: 9.2em" />
+                <figcaption>Africwoman</figcaption>
+            </figure>
+        </div>
+
+        <div class="inner">
+            <figure>
+                <img src="image/img3.png" alt="balablu" style="width: 9.87em" />
+                <figcaption>Africwoman</figcaption>
+            </figure>
+            <figure>
+                <img src="image/img4.png" alt="balablu" style="width: 9.2em" />
+                <figcaption>Africwoman</figcaption>
+            </figure>
+        </div>
+
+        <div class="inner" style="transform: rotateY(-40deg)">
+            <figure>
+                <img src="image/img5.png" alt="balablu" style="width: 9.2em" />
+                <figcaption>Africwoman</figcaption>
+            </figure>
+            <figure>
+                <img src="image/about1.png" alt="balablu" style="width: 9.2em" />
+                <figcaption>Africwoman</figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <!-- your Apointment button goes here  -->
+    <button type="button" class="btn" onclick="location = this.value" value="history.html">
+        Browse History
+    </button>
+
+    <!-- your about section goes here  -->
 
 
- 
+    <div id="about__section">
+        <h3 class="about-heading">About Us</h3>
+        <p class="about-text">Brief History of Africans</p>
 
-    <script src="js/main.js"></script> -->
+        <div class="about-img">
+            <input type="image" src="image/about-img.png" alt="">
+        </div>
+        
+    </div>
+
+    <script src="js/main.js"></script>
 </body>
+
 </html>

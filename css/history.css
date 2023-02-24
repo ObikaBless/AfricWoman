@@ -1,0 +1,15 @@
+@import url("style.css");
+@import url('aboutus.css');
+
+.intro-text{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    line-height: 32px;
+}
+.first__para{
+    display: flex;
+    justify-content: center;
+}
+
+
